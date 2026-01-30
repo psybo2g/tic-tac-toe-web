@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="black">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="player">X</div>
+<div class="player">O</div>
+<div class="scores0">0</div>
+<div class="scores1">0</div>
+<div class="game">
+  <div id="0" class="space" onclick="enterValue(0)"></div><div id="1" class="space" onclick="enterValue(1)"></div><div id="2" class="space" onclick="enterValue(2)"></div><div id="3" class="space" onclick="enterValue(3)"></div><div id="4" class="space" onclick="enterValue(4)"></div><div id="5" class="space" onclick="enterValue(5)"></div><div id="6" class="space" onclick="enterValue(6)"></div><div id="7" class="space" onclick="enterValue(7)"></div><div id="8" class="space" onclick="enterValue(8)"></div>
+</div>
+
+<div class="crossLine0"></div>
+<div class="crossLine1"></div>
+<div class="crossLine2"></div>
+<div class="crossLine3"></div>
+<div class="crossLine4"></div>
+<div class="crossLine5"></div>
+<div class="crossLine6"></div>
+<div class="crossLine7"></div>
+<div onclick="explode()" class="restarter">Restart</div>
+<div class="footer">
+<a href="https://psybo2g.github.io" class="link">About me</a>
+<a href="https://github.com/psybo2g/tic-tac-toe-web" class="link">Code on Github</a>
+</div>
+<script src="main.js"></script>
+</body>
+
+</html>
