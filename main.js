@@ -24,7 +24,7 @@ midColor="mediumaquamarine";
 break;
  case 4:
 lightColor="indianred";
-darkColor="darkred"
+darkColor="darkred";
 midColor="orangered";
 break;
 case 5:
